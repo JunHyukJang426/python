@@ -17,4 +17,3 @@ result.sort(key=len)
 
 for i in result:
     print(i)
-
