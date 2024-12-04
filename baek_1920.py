@@ -3,14 +3,11 @@
 
 import sys
 
-#input = sys.stdin.readline()
-
 n = int(sys.stdin.readline())
-a = sys.stdin.readline().split()
-
+a = set(map(int, sys.stdin.readline().split()))
 
 m = int(sys.stdin.readline())
-m_list = sys.stdin.readline().split()
+m_list = list(map(int, sys.stdin.readline().split()))
 
 for i in m_list:
     print(1) if i in a else print(0)
